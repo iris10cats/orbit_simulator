@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.controls {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
