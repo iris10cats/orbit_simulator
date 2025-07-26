@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2D Orbit Visualizer</title>
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <title>Orbit Visualizer</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>2D Orbit Visualizer</h1>
+    <canvas id="canvas" width="800" height="600"></canvas>
     
     <div class="controls">
-        <button id="increaseVelocity" class="button">Increase Velocity</button>
-        <button id="decreaseVelocity" class="button">Decrease Velocity</button>
-        <button id="resetSimulation" class="button">Reset</button>
+        <button id="increaseVelocity">+ Velocity</button>
+        <button id="decreaseVelocity">- Velocity</button>
+        <button id="resetSimulation">Reset</button>
     </div>
     
-    <canvas id="orbitCanvas" width="800" height="600"></canvas>
-    
+    <!-- Only need one script tag for the module -->
     <script type="module" src="js/app.js"></script>
 </body>
 </html>
